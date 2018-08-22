@@ -15,7 +15,7 @@ $chieudai =;
 // Chu vi hình tròn
 function chuvihinhtron($bankinh)
 {
-    $chuvi= ($bankinh * $bankinh) * 3.14;
+    $chuvi= $bankinh * 3.14;
 
     echo "chu vi hình tròn: $chuvi";
 }
