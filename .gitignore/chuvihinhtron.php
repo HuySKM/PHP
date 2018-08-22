@@ -13,7 +13,7 @@ $chieurong = ;
 $chieudai =;
 
 // Chu vi hình tròn
-function chuvihinhtron($bankinh)
+function chuvihinhtron ($bankinh)
 {
     $chuvi = ($bankinh * $bankinh) * 3.14;
 
@@ -21,14 +21,14 @@ function chuvihinhtron($bankinh)
 }
 
 // Chu vi hình vuông
-function chuvihinhvuong($canh)
+function chuvihinhvuong ($canh)
 {
     $chuvi = ($canh) * 4;
     echo "chu vi hình vuông: $chuvi";
 }
 
 // Chu vi hình chữ nhật
-function chuvihinhchunhat($chieudai, $chieurong)
+function chuvihinhchunhat ($chieudai, $chieurong)
 {
     $chuvi =($chieudai + $chieurong) * 2;
     echo "chu vi hình chữ nhật: $chuvi";
