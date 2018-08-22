@@ -8,9 +8,10 @@ $bankinh =;
 
 $canh = ;
 
+$chieudai =;
+
 $chieurong = ;
 
-$chieudai =;
 
 // Chu vi hình tròn
 function chuvihinhtron ($bankinh)
