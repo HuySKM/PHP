@@ -16,22 +16,36 @@ $chieudai =;
 function chuvihinhtron ($bankinh)
 {
     $chuvi = ($bankinh * $bankinh) * 3.14;
+    
+    return $chuvi;
+    
+    $c = chuvihinhtron();
 
-    echo "Chu vi hình tròn: $chuvi";
+    echo "$c";
 }
 
 // Chu vi hình vuông
 function chuvihinhvuong ($canh)
 {
-    $chuvi = ($canh) * 4;
-    echo "Chu vi hình vuông: $chuvi";
+    $chuvi = ($canh * 4);
+    
+    return $chuvi;
+    
+    $c = chuvihinhvuong()
+        
+    echo "$c";
 }
 
 // Chu vi hình chữ nhật
 function chuvihinhchunhat ($chieudai, $chieurong)
 {
     $chuvi =($chieudai + $chieurong) * 2;
-    echo "Chu vi hình chữ nhật: $chuvi";
+    
+    return $chuvi;
+    
+    $c = chuvihinhchunhat();
+    
+    echo "$c";
 }
 chuvihinhtron ($bankinh);
 
@@ -41,7 +55,7 @@ chuvihinhvuong ($canh);
 
 echo"<br>";
 
-chuvihinhchunhat ($canh, $chieurong);
+chuvihinhchunhat ($chieudai, $chieurong);
 ?>
 
 </body>
